@@ -1,0 +1,78 @@
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posecessor</title>
+    <link rel="stylesheet" href="{% static '/indexs.css' %}" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap"rel="stylesheet"/>
+  
+  </head>
+  
+  <body>
+    <div  class="flexible" >
+      <div class="wrapper">
+          <nav class="nav-bar">
+            <a href="#"style="text-decoration: none;"><h1 class="A" >Pose<span>cessor</span></h1></a>
+          </nav>
+
+          <div class="prev-sec-hero">
+            <img class="pic1" src="{% static '/image/index/animals.svg' %}" >
+            <a href="" style="text-decoration: none;">
+              <h5 class="con">Continue from previous randomizing</h5>
+            </a>
+          </div>
+
+          <a href="{% url 'config'%}">
+            <div class="option-box">
+            <div class="figure"><div class="white">
+              <img class="pic2"src="{% static '/image/index/figure.svg' %}" alt="man posing" />
+              <h2 class="text1">Figure Drawing</h2>
+              <p class="text2">For artist that learning anatomy or drawing gesture</p>
+            </div>
+          </div></a>
+          <a href="{% url 'config'%}">
+          <div  class="animal"><div class="white1">
+              <img class="pic3" src="{% static '/image/index/animals4.svg' %}" alt="">
+              <h2  class="text3" >Animal Drawing</h2>
+              <p   class="text4">Gesture and Contours practice with customizable randomizer</p>
+              </div>
+            </div></a>
+            <a href="{% url 'config'%}">
+            <div class="limbs"><div class="white">
+              <img class="pic4" src="{% static '/image/index/image 12.svg' %}" alt="" />
+              <h2 class="text5" >Limbs</h2>
+              <p  class="text6">difficulty finding reference for arm and hand? we got you!</p>
+            </div>
+            </div>
+          </a>
+          <a href="{% url 'config'%}">
+            <div class="stillLife"><div class="white">
+              <img class="pic5" src="{% static '/image/index/Frame 2.svg' %}" alt="" />
+              <h2 class="text7">Still life</h2>
+              <p class="text8">Learning still life to help with measuring and make a compelling contours</p>
+            </div>
+            </div>
+          </a>
+          </div>
+
+
+          <div class="banner">
+            <img class="pic6" src="{% static '/image/index/image 17.svg' %}"/>
+            <img class="fade" src="{% static '/image/index/fade black.svg' %}">
+            <h2 class="text9"><span class="G">G</span>etting start on still life
+            </h2>
+            <p class="text10">come and learn in this free guide to help you get started on drawing still life and step up your drawing skill!</p>
+            <div class="Readnow">
+              <a href="#" style="text-decoration: none; color: black;">Read Now</a>
+            </div>
+          </div>
+  
+          <div class="bottom-border">
+            <p class="text11"  >terms & conditions contact and other bullshit</p>
+          </div>
+            
+      </div>
+  </body>
+</html>

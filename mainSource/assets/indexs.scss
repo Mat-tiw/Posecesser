@@ -1,0 +1,333 @@
+body {
+    font-family: poppins;
+    background-color: DCDCDC;
+}
+.nav-bar{
+   background-color: #F68800;
+   position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+}
+.A {
+    color: white;
+    span {
+      color: #0f311f;
+    }
+}
+@media (max-width : 480px){
+.flexible{
+        display: block;
+    }
+    .white1{
+        background-color: white;
+        width: 420px;
+        border-radius: 10px;   
+    }
+    .white{
+        background-color: white;
+        width: 420px;
+        border-radius: 10px;    
+    }  
+.prev-sec-hero{
+        background-color: #f58800;
+        position: absolute;
+        top: 8em;
+        left: 2em;
+        border-radius: 15px;
+        width: 420px;
+        .pic1{width: 150px;
+            border-bottom-left-radius: 15px;
+            border-top-left-radius: 15px;
+        }
+        .con{
+            color: black;
+            position: absolute;
+            bottom: 1.5em;
+            left: 12em;
+        }
+}
+.option-box{
+            position: relative;
+            top: 16em;
+            left: 1.5em;
+            .figure{
+                background-color: white;
+                width: 420px;
+                border-radius: 10px;
+            }
+            .pic2{
+                position: relative;
+                width: 420px;
+                padding-bottom: 50px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .text1{
+                position: relative;
+                text-align: center; 
+                bottom: 2em;   
+            }
+            .text2{
+                position: relative;
+                text-align: center; 
+                bottom: 2em;    
+            } 
+            .pic3{
+                position: relative;
+                width: 420px;
+                padding-bottom: 50px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+
+            }
+            .text3{
+                position: relative;
+                text-align: center; 
+                bottom: 2em;   
+            }
+            .text4{
+                position: relative;
+                text-align: center; 
+                bottom: 2em;    
+            } 
+            .pic4{
+                position: relative;
+                width: 420px;
+                padding-bottom: 50px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+
+            }
+            .text5{
+                position: relative;
+                text-align: center; 
+                bottom: 2em;   
+            }
+            .text6{
+                position: relative;
+                text-align: center; 
+                bottom: 2em;    
+            } 
+            .pic5{
+                position: relative;
+                width: 420px;
+                padding-bottom: 50px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+
+            }
+            .text7{
+                position: relative;
+                text-align: center; 
+                bottom: 2em;   
+            }
+            .text8{
+                position: relative;
+                text-align: center; 
+                bottom: 2em;    
+            } 
+        } 
+        .banner{
+            position: relative;
+            top: 20em;
+            left: 0.5em;
+            .pic6{
+                width: 450px;
+                
+            }
+            .fade{
+                position: absolute;
+                right: 8em;
+                width: 340px;
+            }
+            .text9{
+                position: absolute;
+                top: .5em;
+                left: 1em;
+                color: white;
+            }
+            .G{
+                color: #f58800;
+            }
+            .text10{
+                position: absolute;
+                top: 3em;
+                left: 1.5em;
+                max-width: 300px;
+                color: white;
+            }
+            .Readnow{
+                position: absolute;
+                text-align: center;
+                border-radius: 10px;
+                background-color: #FFA12D;
+                width: 100px;
+                top: 9em;
+                left: 2em;
+            }
+        }
+        .bottom-border{
+            position: relative;
+            top: 25em;
+            background-color: #F8BD25;
+                height:50px; 
+            .text11{
+                position: relative;
+                top: 15px;
+                left: 15px
+            }
+        }
+}
+
+@media (min-width : 481px){
+    .flexible {
+        display: block;
+    }
+    body{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .white{
+        background-color: white;
+        width: 650px;
+        border-radius: 15px; 
+    }
+    .white1{
+        background-color: white;
+        width: 650px;
+        height: 676px;
+        border-radius: 15px;    
+    }
+    .prev-sec-hero{
+        position: relative;
+        top: 10em;
+        background-color: #f58800;
+        border-radius: 12px ;
+        .pic1{
+            width: 500px;
+            z-index: 100;
+            border-bottom-left-radius: 12px ;
+            border-top-left-radius: 12px;
+        }
+        .con{
+            position: absolute;
+            top: 100px;
+            left: 600px;
+            font-size: 30px;
+            color: black;
+        }
+    }
+   .option-box{
+    position: relative;
+    top: 15em;
+        .pic2{
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            width: 650px; 
+        }
+        .text1{
+            font-size: 45px;
+            text-align: center;
+        }
+        .text2{
+            font-size: 30px;
+        }
+        .animal{
+            position: absolute;
+            top: 0.01em;
+            left: 50.3em;
+        }
+        .pic3{
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            width: 650px;
+        }
+        .text3{
+            font-size: 40px;
+            text-align: center;
+        }
+        .text4{
+            font-size: 30px;
+        }
+        .pic4{
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            width: 650px;
+        }
+        .text5{
+            font-size: 40px;
+            text-align: center;
+        }
+        .text6{
+            font-size: 30px;
+        }
+        .stillLife{
+            position: absolute;
+            top: 44.35em;
+            left: 50.3em;
+        }
+        .pic5{
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            width: 650px;
+        }
+        .text7{
+            font-size: 38px;
+            text-align: center;
+        }
+        .text8{
+            font-size: 30px;
+        }
+    }
+   .banner{
+    position: relative;
+    top: 18em;
+    left: 5px;
+    .fade{
+        position: absolute;
+        right: 23.8em;
+     }
+    .G{
+        color: #f58800;
+    }
+    .text9{
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        color: white;
+        font-size: 50px;
+    }
+    .text10{
+        max-width: 850px;
+        position: absolute;
+        color: white;
+        top: 5em;
+        left: 1.8em;
+        font-size: 30px;
+    }
+    .Readnow{
+        position: absolute;
+        text-align: center;
+        border-radius: 10px;
+        font-weight: bold;
+        top: 10em;
+        left: 1em;
+        background-color: #f58800;
+        width: 250px;
+        font-size: 30px;
+    }
+   }
+   .bottom-border{
+    position: relative;
+    top: 20em;
+    height: 50px;
+    background-color:  #F8BD25;
+    .text11{
+        position: relative;
+        top: 15px;
+        left: 15px;
+    }
+}    
+}

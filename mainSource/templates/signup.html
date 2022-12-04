@@ -1,0 +1,38 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up to Posecessor</title>
+    <link rel="stylesheet" href="{% static '/signup.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="wrapper">
+        <h1>
+            Pose<span>cessor</span>
+        </h1>
+        <div class="signup-box">
+            <form action="getInfoSignup">
+                <div class="textfield-sec">
+                    <input class="userName" type="text" placeholder="Username" name="name">
+                    <input class="password" type="text" placeholder="Password" name="password">
+                    <input class="passwordRe" type="text" placeholder="Confirm Password">
+                </div>
+              <div class="tos">
+                    <input type="checkbox">
+                    <a href="#">Term and service</a>
+               </div>
+               <div class="createAcc">
+                    <input type="submit" value="Create account">
+                </div>
+            </form>
+    </div>
+</body>
+</html>

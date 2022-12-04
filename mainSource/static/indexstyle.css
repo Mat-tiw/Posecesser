@@ -1,0 +1,61 @@
+body {
+  background-color: antiquewhite;
+  margin: 2em;
+  font-family: poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type=Submit] {
+  background-color: red;
+  width: 10em;
+  height: 3em;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 1em;
+  font-family: poppins;
+  font-weight: 700;
+  border-color: none;
+}
+
+.wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin: 2em;
+}
+
+input[type=submit] {
+  margin: 1em;
+}
+
+.remove-block {
+  background-color: red;
+  width: 10em;
+  height: 3em;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 1em;
+}
+.remove-block .textRemove {
+  position: relative;
+  font-weight: 700;
+  color: rgb(224, 224, 224);
+  top: -0.5em;
+}
+
+.btn-update {
+  background-color: rgb(25, 107, 25);
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+.btn-update p {
+  font-weight: 700;
+  color: rgb(224, 224, 224);
+}/*# sourceMappingURL=indexstyle.css.map */

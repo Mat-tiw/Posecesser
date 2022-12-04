@@ -1,0 +1,70 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="https://cdn.frankerfacez.com/emoticon/43360/4">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Config</title>
+    <link rel="stylesheet" href="{% static '/config.css' %}">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+</head>
+
+<body>
+    <div class="flexible">
+        <div class="wrapper">
+            <nav class="nav-bar">
+                <a class="A" href="#" style="text-decoration: none;"><h1><span>Pose</span>cessor</h1></a>
+            </nav>
+            
+            <div class="hero-header">
+                <h1>Figure study tool</h1>
+                <p>Warning this tool use nude picture, both male and female but you can turn it off on 
+                    the prefix</p>
+            </div>
+
+            <div class="section1">
+                <h2 class="B">What you would like models to be covers?</h2>
+                <h3>Cover and Clothing :</h3>
+                    <input class="checkbox" type="checkbox"        >all models         
+                    <div class="checkbox1"><input  type="checkbox" >Only nude</div>
+                    <div class="checkbox2"><input  type="checkbox" >covered</div>
+
+                <div class="Include"><h3>Include :</h3>
+                    <div class="checkbox"><input  type="checkbox" >Both</div>
+                    <div class="checkbox3"><input  type="checkbox" >Only female</div>
+                    <div class="checkbox4"><input  type="checkbox" >Only male</div>
+                </div>
+
+                <div class="Ages1" ><h3>Ages :</h3>
+                    <div class="checkbox"><input  type="checkbox"> Both</div>
+                    <div class="checkbox5"><input  type="checkbox">Teen</div>
+                    <div class="checkbox6"><input  type="checkbox"> Adult</div>
+                </div>
+            </div>
+
+            <div class="section2">
+                <h2>What kind of session</h2>
+                    <input  type="checkbox"> All same length
+                    <div class="checkbox7"><input  type="checkbox"> Class mode</div>
+                    <p >Classes warm you up with quick gesture drawings, then ease you into longer poses.
+                    They include built-in break times.</p>
+            </div>
+
+        <div class="section3">
+                <h2>What time intervals?</h2>
+                <input  type="text"> <span class="text"> seconds</span>
+            
+            <a href="{% url 'showImage' %}">
+            <div class="startButton">
+                <h1>Start</h1>
+            </div>
+        </a>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

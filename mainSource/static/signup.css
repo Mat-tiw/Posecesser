@@ -1,0 +1,125 @@
+body {
+  background: linear-gradient(162.35deg, #f68800 0%, #f8bd25 99.49%);
+  font-family: poppins;
+}
+
+.wrapper {
+  width: 20em;
+  height: 25em;
+  position: absolute;
+  text-align: center;
+  display: grid;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+h1 {
+  color: white;
+  -webkit-animation: moveDown 0.9s forwards ease-in-out;
+          animation: moveDown 0.9s forwards ease-in-out;
+  opacity: 0;
+}
+h1 span {
+  color: #0f311f;
+}
+
+.signup-box {
+  background-color: white;
+  position: relative;
+  margin: auto;
+  width: 15em;
+  height: 20em;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 1em;
+  padding: 1em;
+  -webkit-animation: introLoad 1.15s forwards;
+          animation: introLoad 1.15s forwards;
+}
+.signup-box input {
+  font-family: poppins;
+  font-weight: light;
+  float: left;
+  margin-bottom: 1em;
+  width: 15em;
+  height: 5vh;
+  font-size: 1em;
+  border-radius: 0.3em;
+  border-color: #c1c1c1;
+}
+.signup-box input[type=text]:focus {
+  border-color: hsl(316deg, 100%, 50%);
+}
+
+.createAcc input[type=submit] {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  top: 4em;
+  left: -0.08em;
+  background-color: #f68800;
+  border-color: aliceblue;
+}
+
+.tos {
+  z-index: 9999;
+  position: absolute;
+  display: flex;
+  margin-top: 11em;
+  -moz-column-gap: 1em;
+       column-gap: 1em;
+}
+.tos input {
+  width: 1em;
+}
+.tos a {
+  margin-top: 1.3em;
+  font-size: small;
+  text-decoration: none;
+  color: black;
+}
+
+@-webkit-keyframes introLoad {
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes introLoad {
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+@-webkit-keyframes moveDown {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes moveDown {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}/*# sourceMappingURL=signup.css.map */

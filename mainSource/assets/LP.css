@@ -1,0 +1,105 @@
+body {
+  font-family: poppins;
+  background-color: DCDCDC;
+}
+
+.nav-bar {
+  background-color: #F68800;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.A {
+  color: white;
+}
+.A span {
+  color: #0f311f;
+}
+
+@media (max-width: 480px) {
+  .flexible {
+    display: block;
+  }
+  .yellow {
+    position: relative;
+    background-color: F8BD25;
+    top: 5em;
+  }
+  .yellow .Getting {
+    position: relative;
+    left: 1em;
+  }
+  .yellow .Thisstep {
+    text-align: center;
+  }
+  .white {
+    position: relative;
+    top: 5em;
+    background-color: rgb(250, 255, 255);
+    margin: 1em;
+    padding: 1em;
+  }
+  .white .step1 {
+    position: relative;
+    margin-right: 7em;
+    font-size: 15px;
+  }
+  .white .photo1 {
+    text-align: center;
+  }
+  .white .wordlong {
+    font-size: 13px;
+  }
+  .white .step2 {
+    position: relative;
+    margin-right: 7em;
+    font-size: 15px;
+  }
+}
+@media (min-width: 481px) {
+  .flexible {
+    display: block;
+  }
+  .yellow {
+    position: relative;
+    background-color: F8BD25;
+    top: 4em;
+    margin: 1em;
+    padding: 1em;
+  }
+  .yellow .Getting {
+    position: relative;
+    left: 2em;
+  }
+  .yellow .Thisstep {
+    color: rgb(247, 245, 245);
+    position: relative;
+    left: 3em;
+  }
+  .white {
+    position: relative;
+    top: 5em;
+    background-color: rgb(250, 255, 255);
+    margin: 1em;
+    padding: 1em;
+  }
+  .white .step1 {
+    position: relative;
+    margin-right: 7em;
+    font-size: 15px;
+  }
+  .white .photo1 {
+    text-align: center;
+  }
+  .white .wordlong {
+    font-size: 13px;
+  }
+  .white .step2 {
+    position: relative;
+    margin-right: 7em;
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=LP.css.map */

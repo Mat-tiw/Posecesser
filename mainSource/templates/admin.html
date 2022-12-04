@@ -1,0 +1,53 @@
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static '/indexstyle.css'%}" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="form">
+        <label for="">name</label><br />
+        <input type="text" name="name" /><br />
+        <label for="">password</label><br />
+        <input type="text" name="password" /><br />
+        <input type="submit" name="" id="" value="add" /><br />
+      </form>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>password</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for s in content%}
+          <tr>
+            <td>{{s.Id}}</td>
+            <td>{{s.name}}</td>
+            <td>{{s.password}}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <form action="delete" class="deleting class">
+        <label for="">input id to delete: </label>
+        <input type="text" name="ids" />
+        <input type="submit" name="" id="" value="delete" /><br />
+      </form>
+      <form action="update">
+        <div class="update-block">
+          <label for="">name</label><br />
+          <input type="text" name="UPname" /><br />
+          <label for="">id</label><br />
+          <input type="number" name="id" /><br />
+          <input type="submit" name="" id="" value="update" /><br />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

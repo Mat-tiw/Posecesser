@@ -1,0 +1,299 @@
+body{
+    font-family: poppins;
+    background-color: DCDCDC;
+    margin-left: 2em;
+    margin-right: 2em;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar{
+    background-color: #F68800;
+    position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 100;
+ }
+ .A {
+    color: white;
+    margin: 10px;
+    span {
+      color: #0f311f;
+    }
+}
+
+.Start{
+    background-color: #f58800;
+    width: 150px;
+}
+
+@media (max-width:1600px) and (min-width: 993px) {
+    .flexible {
+        display: block;
+    }
+    .wrapper{
+        position: absolute;
+        top: 5em;
+    }
+    .checkbox1{
+        position: absolute;
+        top:  14.9em;
+        left: 20em;
+    }
+    .checkbox2{
+        position: absolute;
+        top: 14.9em;
+        left: 40em;
+    }
+    .checkbox3{
+        position: absolute;
+        top: 20.5em;
+        left: 20em;
+    }
+    .checkbox4{
+        position: absolute;
+        top: 20.5em;
+        left: 40em;
+    }
+    .checkbox5{
+        position: absolute;
+        top: 26em;
+        left: 20em;
+    }
+    .checkbox6{
+        position: absolute;
+        top: 26em;
+        left: 40em;
+
+    }
+    .checkbox7{
+        position: absolute;
+        top: 32.3em;
+        left: 30em;
+   }
+.startButton{
+        text-align: center;
+        background-color: #f58800;
+        width: 400px;
+        position: relative;
+        left: 8em;
+}
+}
+
+
+
+@media screen and (max-width : 992px) and (min-width : 769px) {
+    .flexible {
+        display: block;
+    }
+    .wrapper{
+        position: absolute;
+        top: 5em;
+
+    }
+    .section1{
+       .checkbox1{
+        position: absolute;
+        top:  14.9em;
+        left: 20em;
+    }
+    .checkbox2{
+        position: absolute;
+        top: 14.9em;
+        left: 40em;
+    }
+    .checkbox3{
+        position: absolute;
+        top: 20.5em;
+        left: 20em;
+    }
+    .checkbox4{
+        position: absolute;
+        top: 20.5em;
+        left: 40em;
+    }
+    .checkbox5{
+        position: absolute;
+        top: 26em;
+        left: 20em;
+    }
+    .checkbox6{
+        position: absolute;
+        top: 26em;
+        left: 40em;
+    }
+    }
+    .section2{
+        .checkbox7{
+            position: absolute;
+            top: 32.3em;
+            left: 30em;
+       }
+    }
+    .section3{
+        .startButton{
+            text-align: center;
+            background-color: #f58800;
+            width: 400px;
+            position: relative;
+            left: 5em;
+    }
+    }
+}
+
+
+
+
+@media screen and  (max-width : 768px) and (min-width : 601px) {
+    .flexible {
+        display: block;
+    }
+    .wrapper{
+        position: absolute;
+        top: 5em;
+
+    }
+    .hero-header{
+        .text1{
+            width: 600px;
+        }
+    }
+    
+    .section1{
+       .checkbox1{
+        position: absolute;
+        top:  16.4em;
+        left: 15em;
+    }
+    .checkbox2{
+        position: absolute;
+        top: 16.4em;
+        left: 30em;
+    }
+    .checkbox3{
+        position: absolute;
+        top: 22em;
+        left: 15em;
+    }
+    .checkbox4{
+        position: absolute;
+        top: 22em;
+        left: 30em;
+    }
+    .checkbox5{
+        position: absolute;
+        top: 27.5em;
+        left: 15em;
+    }
+    .checkbox6{
+        position: absolute;
+        top: 27.5em;
+        left: 30em;
+    }
+}
+.section2{
+    .checkbox7{
+        position: absolute;
+        left: 5em;
+    }
+    .checkbox8{
+        position: absolute;
+        top: 33.8em;
+        left: 25em;
+   }
+   .text{
+    position: relative;
+    top: 2em;
+   }
+}
+.section3{
+    position: relative;
+    top: 2em;
+    .startButton{
+        text-align: center;
+        background-color: #f58800;
+        width: 350px;
+        position: relative;
+        left: 5em;
+}
+}
+}
+
+
+
+
+
+@media screen and (max-width : 600px) {
+    .flexible {
+        display: block;       
+}  
+.wrapper{
+       position: absolute;
+       top: 3em;
+}
+    .section1{
+        .B{
+            width: 400px;
+        }
+        .checkbox1{
+            position: absolute;
+            top: 18.7em;
+            left: 10em;
+     }
+     .checkbox2{
+            position: absolute;
+            top: 18.7em;
+            left: 20em;
+     
+            
+     }
+     .checkbox3{
+            position: absolute;
+            top: 24.3em;
+            left: 10em;
+            
+     }
+     .checkbox4{
+            position: absolute;
+            top: 24.3em;
+            left: 20em;
+            
+            
+     }
+     .checkbox5{
+            position: absolute;
+            top: 29.85em;
+            left: 10em;
+     
+     }
+     .checkbox6{
+            position: absolute;
+            top: 29.85em;
+            left: 20em;
+     
+     }
+    }
+
+.section2{
+    .checkbox7{
+       position: absolute;
+       top: 36.15em;
+       left: 15em;
+}
+}
+
+.section3{
+   .startButton{
+       text-align: center;
+       background-color: #f58800;
+       position: relative;
+       left: 5em;
+       width: 300px;
+} 
+}
+
+
+}

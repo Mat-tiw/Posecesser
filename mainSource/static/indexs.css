@@ -1,0 +1,635 @@
+body {
+  font-family: poppins;
+  background-color: DCDCDC;
+  margin: 5em;
+}
+
+.nav-bar {
+  background-color: #F68800;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.A {
+  color: white;
+  margin: 10px;
+}
+.A span {
+  color: #0f311f;
+}
+
+@media only screen and (min-width: 400px) {
+  .flexible {
+    display: block;
+  }
+  .white1 {
+    background-color: white;
+    width: 400px;
+    border-radius: 15px;
+  }
+  .white {
+    background-color: white;
+    width: 400px;
+    border-radius: 15px;
+  }
+  .prev-sec-hero {
+    background: #F68800;
+    position: absolute;
+    top: 9em;
+    left: 2em;
+    border-radius: 15px;
+    width: 32em;
+  }
+  .prev-sec-hero .pic1 {
+    width: 250px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  .prev-sec-hero .con {
+    text-align: center;
+    font-size: 15px;
+    width: 250px;
+    height: 270px;
+    color: black;
+    position: absolute;
+    bottom: -12em;
+    left: 16.5em;
+    z-index: 1000;
+  }
+  .option-box {
+    position: absolute;
+    top: 25em;
+  }
+  .option-box .figure {
+    position: absolute;
+    left: 1em;
+  }
+  .option-box .pic2 {
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text1 {
+    text-align: center;
+  }
+  .option-box .text2 {
+    text-align: center;
+  }
+  .option-box .animal {
+    position: absolute;
+    top: 30em;
+    left: 1em;
+  }
+  .option-box .pic3 {
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text3 {
+    text-align: center;
+  }
+  .option-box .text4 {
+    text-align: center;
+  }
+  .option-box .limbs {
+    position: absolute;
+    top: 60em;
+    left: 1em;
+  }
+  .option-box .pic4 {
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text5 {
+    text-align: center;
+  }
+  .option-box .text6 {
+    text-align: center;
+  }
+  .option-box .stillLife {
+    position: absolute;
+    top: 90em;
+    left: 1em;
+  }
+  .option-box .pic5 {
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text7 {
+    text-align: center;
+  }
+  .option-box .text8 {
+    text-align: center;
+  }
+  .banner {
+    position: absolute;
+    top: 145em;
+  }
+  .banner .pic6 {
+    width: 430px;
+  }
+  .banner .fade {
+    position: absolute;
+    left: -0.1em;
+    width: 320px;
+  }
+  .banner .text9 {
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    font-size: 15px;
+    color: white;
+  }
+  .banner .g {
+    color: #F68800;
+  }
+  .banner .text10 {
+    position: absolute;
+    top: 5em;
+    left: 3em;
+    font-size: 10px;
+    width: 300px;
+    color: white;
+  }
+  .readnow {
+    position: absolute;
+    left: 2.5em;
+    top: 11em;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #F68800;
+    text-align: center;
+    width: 150px;
+  }
+  .bottom-border {
+    position: absolute;
+    top: 158em;
+    background-color: F8BD25;
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .flexible {
+    display: block;
+  }
+  .white1 {
+    background-color: white;
+    width: 250px;
+    height: 338px;
+    border-radius: 15px;
+  }
+  .white {
+    background-color: white;
+    width: 250px;
+    border-radius: 15px;
+  }
+  .prev-sec-hero {
+    background: #F68800;
+    position: absolute;
+    top: 9em;
+    left: 4em;
+    border-radius: 15px;
+    width: 40em;
+  }
+  .prev-sec-hero .pic1 {
+    width: 300px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  .prev-sec-hero .con {
+    text-align: center;
+    font-size: 20px;
+    width: 300px;
+    height: 270px;
+    color: black;
+    position: absolute;
+    bottom: -8em;
+    left: 16.5em;
+    z-index: 1000;
+  }
+  .option-box {
+    position: absolute;
+    top: 25em;
+  }
+  .option-box .figure {
+    position: absolute;
+  }
+  .option-box .pic2 {
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text1 {
+    text-align: center;
+  }
+  .option-box .text2 {
+    text-align: center;
+  }
+  .option-box .animal {
+    position: absolute;
+    top: -0.01em;
+    left: 22em;
+  }
+  .option-box .pic3 {
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text3 {
+    text-align: center;
+  }
+  .option-box .text4 {
+    text-align: center;
+  }
+  .option-box .limbs {
+    position: absolute;
+    top: 20em;
+  }
+  .option-box .pic4 {
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text5 {
+    text-align: center;
+  }
+  .option-box .text6 {
+    text-align: center;
+  }
+  .option-box .stillLife {
+    position: absolute;
+    top: 20em;
+    left: 22em;
+  }
+  .option-box .pic5 {
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text7 {
+    text-align: center;
+  }
+  .option-box .text8 {
+    text-align: center;
+  }
+  .banner {
+    position: absolute;
+    top: 70em;
+  }
+  .banner .pic6 {
+    width: 620px;
+  }
+  .banner .fade {
+    position: absolute;
+    left: -0.1em;
+    width: 465px;
+  }
+  .banner .text9 {
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    font-size: 20px;
+    color: white;
+  }
+  .banner .g {
+    color: #F68800;
+  }
+  .banner .text10 {
+    position: absolute;
+    top: 5em;
+    left: 3em;
+    font-size: 15px;
+    width: 300px;
+    color: white;
+  }
+  .banner .readnow {
+    position: absolute;
+    left: 2.5em;
+    top: 11em;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #F68800;
+    text-align: center;
+    width: 150px;
+  }
+  .bottom-border {
+    position: absolute;
+    top: 86em;
+    background-color: F8BD25;
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .flexible {
+    display: block;
+  }
+  .white1 {
+    background-color: white;
+    width: 300px;
+    height: 375px;
+    border-radius: 15px;
+  }
+  .white {
+    background-color: white;
+    width: 300px;
+    border-radius: 15px;
+  }
+  .prev-sec-hero {
+    background: #F68800;
+    position: absolute;
+    top: 9em;
+    left: 7em;
+    border-radius: 15px;
+    width: 50em;
+  }
+  .prev-sec-hero .pic1 {
+    width: 300px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  .prev-sec-hero .con {
+    text-align: center;
+    font-size: 20px;
+    width: 300px;
+    height: 270px;
+    color: black;
+    position: absolute;
+    bottom: -8em;
+    left: 20em;
+    z-index: 1000;
+  }
+  .option-box {
+    position: absolute;
+    top: 25em;
+  }
+  .option-box .figure {
+    position: absolute;
+    left: 4em;
+  }
+  .option-box .pic2 {
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text1 {
+    text-align: center;
+  }
+  .option-box .text2 {
+    text-align: center;
+  }
+  .option-box .animal {
+    position: absolute;
+    top: -0.01em;
+    left: 30em;
+  }
+  .option-box .pic3 {
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text3 {
+    text-align: center;
+  }
+  .option-box .text4 {
+    text-align: center;
+  }
+  .option-box .limbs {
+    position: absolute;
+    top: 25em;
+    left: 4em;
+  }
+  .option-box .pic4 {
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text5 {
+    text-align: center;
+  }
+  .option-box .text6 {
+    text-align: center;
+  }
+  .option-box .stillLife {
+    position: absolute;
+    top: 25em;
+    left: 30em;
+  }
+  .option-box .pic5 {
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text7 {
+    text-align: center;
+  }
+  .option-box .text8 {
+    text-align: center;
+  }
+  .banner {
+    position: absolute;
+    top: 80em;
+  }
+  .banner .pic6 {
+    width: 850px;
+  }
+  .banner .fade {
+    position: absolute;
+    left: -1em;
+    width: 640px;
+  }
+  .banner .text9 {
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    font-size: 30px;
+    color: white;
+  }
+  .banner .g {
+    color: #F68800;
+  }
+  .banner .text10 {
+    position: absolute;
+    top: 5em;
+    left: 3em;
+    font-size: 20px;
+    width: 500px;
+    color: white;
+  }
+  .banner .readnow {
+    position: absolute;
+    left: 2.5em;
+    top: 11em;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #F68800;
+    text-align: center;
+    width: 150px;
+  }
+  .bottom-border {
+    position: absolute;
+    top: 102em;
+    background-color: F8BD25;
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .flexible {
+    display: block;
+  }
+  .white1 {
+    background-color: white;
+    width: 500px;
+    height: 502px;
+    border-radius: 15px;
+  }
+  .white {
+    background-color: white;
+    width: 500px;
+    border-radius: 15px;
+  }
+  .prev-sec-hero {
+    background: #F68800;
+    position: absolute;
+    top: 8em;
+    left: 7em;
+    border-radius: 15px;
+    width: 80em;
+  }
+  .prev-sec-hero .pic1 {
+    width: 500px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  .prev-sec-hero .con {
+    font-size: 25px;
+    width: 500px;
+    height: 270px;
+    color: black;
+    position: absolute;
+    bottom: -4.5em;
+    left: 25em;
+    z-index: 1000;
+  }
+  .option-box {
+    position: relative;
+    top: 35em;
+  }
+  .option-box .figure {
+    position: absolute;
+    left: 7em;
+  }
+  .option-box .pic2 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 500px;
+  }
+  .option-box .text1 {
+    text-align: center;
+  }
+  .option-box .text2 {
+    text-align: center;
+  }
+  .option-box .animal {
+    position: absolute;
+    top: -0.1em;
+    left: 45em;
+  }
+  .option-box .pic3 {
+    width: 500px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text3 {
+    text-align: center;
+  }
+  .option-box .text4 {
+    text-align: center;
+  }
+  .option-box .limbs {
+    position: absolute;
+    left: 7em;
+    top: 30em;
+  }
+  .option-box .pic4 {
+    width: 500px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text5 {
+    text-align: center;
+  }
+  .option-box .text6 {
+    text-align: center;
+  }
+  .option-box .stillLife {
+    position: absolute;
+    left: 45em;
+    top: 30em;
+  }
+  .option-box .pic5 {
+    width: 500px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .option-box .text7 {
+    text-align: center;
+  }
+  .option-box .text8 {
+    text-align: center;
+  }
+  .banner {
+    position: absolute;
+    top: 105em;
+  }
+  .banner .pic6 {
+    width: 1380px;
+  }
+  .banner .fade {
+    position: absolute;
+    width: 1035px;
+    left: -1em;
+  }
+  .banner .text9 {
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    font-size: 45px;
+    color: white;
+  }
+  .banner .g {
+    color: #F68800;
+  }
+  .banner .text10 {
+    position: absolute;
+    top: 5em;
+    left: 3em;
+    font-size: 30px;
+    width: 700px;
+    color: white;
+  }
+  .banner .readnow {
+    position: absolute;
+    left: 3.5em;
+    top: 14em;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #F68800;
+    text-align: center;
+    width: 150px;
+  }
+  .bottom-border {
+    position: absolute;
+    top: 140em;
+    background-color: F8BD25;
+    width: 90%;
+  }
+}/*# sourceMappingURL=indexs.css.map */

@@ -1,0 +1,52 @@
+body{
+    background-color: #1E1E1E;
+    font-family: poppins;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+    .MM{
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: -3em;
+        right: -40vw;
+    }
+    .photo{
+        position: relative;
+        background-color: white;
+        width: 100vw;
+        height: 60vh;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+.allword{
+    color: white;
+}
+.text-box-wrapper{
+    margin-top: 2em;
+    display: inline-flex;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 5vw;
+    text-align: center;
+    .box1{
+        width: 23vw;
+        background-color: white;
+    }
+    .box2{
+        width: 23vw;
+        background-color: white;
+    }
+    .box3{
+        width: 23vw;
+        background-color: white;
+    }
+}

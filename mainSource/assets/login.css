@@ -1,0 +1,152 @@
+body {
+  background: linear-gradient(162.35deg, #f68800 0%, #f8bd25 99.49%);
+  font-family: poppins;
+}
+
+.wrapper {
+  width: 20em;
+  height: 25em;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.login-box {
+  background: white;
+  width: 15em;
+  height: 20em;
+  margin: auto;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 1em;
+  border-radius: 1em;
+  -webkit-animation: introLoad 1.15s forwards;
+          animation: introLoad 1.15s forwards;
+}
+.login-box input {
+  font-family: poppins;
+  font-weight: light;
+  float: left;
+  margin-bottom: 1em;
+  width: 15em;
+  height: 5vh;
+  font-size: 1em;
+  border-radius: 0.3em;
+  border-color: #c1c1c1;
+}
+.login-box input[type=text]:focus {
+  border-color: hsl(316deg, 100%, 50%);
+}
+
+.signup {
+  position: absolute;
+  height: auto;
+  width: auto;
+  text-align: left;
+  margin-top: 2.3em;
+  margin-left: 0.2em;
+}
+.signup a {
+  font-weight: small;
+  color: rgb(198, 197, 197);
+  text-decoration: none;
+  font-size: small;
+}
+
+.wordbrand {
+  opacity: 0;
+  -webkit-animation: moveDown 0.9s ease-in-out forwards;
+          animation: moveDown 0.9s ease-in-out forwards;
+}
+.wordbrand h1 {
+  color: white;
+}
+.wordbrand span {
+  color: #133d3d;
+}
+
+.login-button {
+  margin-top: 5em;
+  margin-left: 2em;
+  margin-right: 2em;
+  border-radius: 0.3em;
+  height: 6vh;
+}
+.login-button input[type=submit] {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  top: 0.4em;
+}
+
+.lineBorder {
+  background: rgba(35, 65, 54, 0.4352941176);
+  height: 0.13em;
+  margin-top: 1em;
+}
+
+.img-hyperlink .Gmail {
+  width: 3em;
+  position: relative;
+  top: 1em;
+  left: -1.6em;
+}
+.img-hyperlink .Gmail a {
+  width: 3em;
+  position: relative;
+  top: 1em;
+  left: -5em;
+}
+.img-hyperlink img {
+  width: 3.2em;
+  position: relative;
+  top: 0.7em;
+  right: -1.4em;
+}
+
+@-webkit-keyframes introLoad {
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes introLoad {
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+@-webkit-keyframes moveDown {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes moveDown {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}/*# sourceMappingURL=login.css.map */

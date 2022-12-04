@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'result.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div class="result">
+    
+        <div class="MM"><h1>MM:SS</h1></div>
+
+        <div class="photo" >
+            <img src="data:image/png;base64,{{image}}">
+        </div>
+    
+        <div class="allword">
+            <div class="previous"><h2>Previous</h2></div>
+            <div class="stopandstart"><h2>Stop/Start</h2></div>
+            <div class="next"><h2>Next</h2></div>
+        </div>
+
+    </div>
+</body>
+</html>
